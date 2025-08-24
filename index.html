@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Meyawo landing page.">
+    <meta name="author" content="Devcrud">
+    <title>ASRAF PORTFOLIO</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Meyawo main styles -->
+    <link rel="stylesheet" href="assets/css/meyawo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- Page Navbar -->
+    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="logo" href="index.php">Asraf</a>
+            <ul class="nav">
+                <li class="item">
+                    <a class="link" href="#home">Home</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#about">About</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#testmonial">Testmonial</a>
+                </li>
+                
+                <li class="item">
+                    <a class="link" href="#contact">Contact</a>
+                </li>
+                
+            </ul>
+            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
+            </a>
+        </div>
+    </nav><!-- End of Page Navbar -->
+
+    <!-- page header -->
+    <header id="home" class="header">
+        <div class="overlay"></div>
+        <div class="header-content container">
+            <h1 class="header-title">
+                <span class="up">HI!</span>
+                <span class="down">I am MD Asraf Ali</span>
+            </h1>
+            <p class="header-subtitle">Data Analyst As Well as Developer</p>
+
+            <a href="#portfolio"><button class="btn btn-primary">Visit My Works</button></a>
+        </div>
+    </header><!-- end of page header -->
+
+    <!-- about section -->
+    <section class="section pt-0" id="about">
+        <!-- container -->
+        <div class="container text-center">
+            <!-- about wrapper -->
+            <div class="about">
+                <div class="about-img-holder">
+                    <img src="assets/imgs/asrafportfolio.jpg" class="about-img"
+                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                </div>
+                <div class="about-caption">
+                    <p class="section-subtitle">Who Am I ?</p>
+               <h2 class="section-title mb-3">About Me</h2>
+<p>
+    Hi, I’m <b>MD ASRAF ALI</b>, a dedicated <b>Data Analyst</b> and <b>Developer</b> with a strong passion for 
+    problem-solving. I analyze complex datasets to extract valuable insights, and I design and build innovative 
+    <b>websites</b> and <b>mobile applications</b> that are functional, scalable, and easy to use. I enjoy combining 
+    analytical thinking with development skills to deliver solutions that truly help people. I constantly explore new 
+    technologies, improve my expertise, and stay motivated to create meaningful digital experiences.
+</p>
+
+
+
+<!-- Download CV Button -->
+<button class="btn-rounded btn btn-outline-primary mt-4" data-toggle="modal" data-target="#cvModal">
+    Download CV
+</button>
+
+<!-- CV Selection Modal -->
+<div class="modal fade" id="cvModal" tabindex="-1" role="dialog" aria-labelledby="cvModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content p-4 text-center">
+      <h5 class="mb-3">Select CV to Download</h5>
+      <button class="btn btn-primary m-2" onclick="downloadFile('assets/cv/data_analyst.pdf')">
+        Data Analyst CV
+      </button>
+      <button class="btn btn-success m-2" onclick="downloadFile('assets/cv/developer.pdf')">
+        Developer CV
+      </button>
+    </div>
+  </div>
+</div>            </div><!-- end of about wrapper -->
+        </div><!-- end of container -->
+    </section> <!-- end of about section -->
+<!-- service section -->
+<section class="section" id="service">
+    <div class="container text-center">
+        <p class="section-subtitle">What I Do ?</p>
+        <h6 class="section-title mb-6">Services</h6>
+        <!-- row -->
+        <div class="row">
+            <!-- Data Analysis -->
+            <div class="col-md-6 col-lg-3">
+                <div class="service-card">
+                    <div class="body">
+                        <img src="assets/imgs/analytics.svg" 
+                             alt="Data Analysis Service" class="icon">
+                        <h6 class="title">Data Analysis</h6>
+                        <p class="subtitle">
+                            I analyze complex datasets, clean and visualize data, and extract valuable insights 
+                            that help in making smart, data-driven business decisions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Web & App Development -->
+            <div class="col-md-6 col-lg-3">
+                <div class="service-card">
+                    <div class="body">
+                        <img src="assets/imgs/responsive.svg" 
+                             alt="Web & App Development" class="icon">
+                        <h6 class="title">Web & App Development</h6>
+                        <p class="subtitle">
+                            I d develop modern, responsive websites and mobile apps 
+                            with smooth functionality to provide the best user experience.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AI & Machine Learning -->
+            <div class="col-md-6 col-lg-3">
+                <div class="service-card">
+                    <div class="body">
+                        <img src="assets/imgs/toolbox.svg" 
+                             alt="AI & ML Solutions" class="icon">
+                        <h6 class="title">AI & ML Solutions</h6>
+                        <p class="subtitle">
+                            I build intelligent models for computer vision, NLP, and predictive analytics 
+                            using AI/ML techniques to solve real-world problems.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Data Visualization -->
+            <div class="col-md-6 col-lg-3">
+                <div class="service-card">
+                    <div class="body">
+                        <img src="assets/imgs/pencil-case.svg" 
+                             alt="Data Visualization" class="icon">
+                        <h6 class="title">Data Visualization</h6>
+                        <p class="subtitle">
+                            I create interactive dashboards and clear visual reports that 
+                            make data easy to understand and actionable for decision-makers.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div><!-- end of row -->
+    </div>
+</section><!-- end of service section -->
+
+
+    <!-- portfolio section -->
+    <section class="section" id="portfolio">
+        <div class="container text-center">
+            <p class="section-subtitle">What I Did ?</p>
+            <h6 class="section-title mb-6">Portfolio</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="https://github.com/mdasraf786/Superstore-Sales-Dashboard.git" class="portfolio-card">
+                        <img src="assets/imgs/p1.png" class="portfolio-card-img"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>SuperStore Sales Dashboard</h5>
+                                    <p class="font-weight-normal">This Power BI project presents a dynamic and interactive sales dashboard for a Superstore. It visualizes sales trends, customer behavior, and product performance, while also providing a 15-day sales forecast to help with planning and decision-making. Click on to check on Github</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                  <div class="col-md-4 ">
+                    <a href="https://github.com/mdasraf786/justhome.git" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/justhome.jpg" class="img-responsive rounded"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Real Estate App</h5>
+                                    <p class="font-weight-normal">Made With Flutter and Firebase as Backend which is mainly for buying and selling property or for rent, mainly dealing about property through chatting later finish deal by metting.Click on to check on Github</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://github.com/mdasraf786/Live-Measurements-Api-main.git" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/sizechart1.png" class="img-responsive rounded"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Best Fit Through Size Chart And Front Image</h5>
+                                    <p class="font-weight-normal">API CONFIGURATION(Python) WITH BEST FIT FUNCTION WITH FRONTENDED,whhich basically i get api from github in which i created best fit function which will match the approximate measurement of user with the sizechart of topwear and provide best fit.Click on to check on Github</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+               
+                
+                <div class="col-md-4 mt-1">
+                    <a href="https://espotinternationallahan.com" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/logo.jpg" class="img-responsive rounded"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Espot International Lahan</h5>
+                                    <p class="font-weight-normal">Full Working Consultancy Website(HTML.CSS,BOOSTRAP AND PHP, MYSQL AS BACKEND) made for client which allows to register meetings,booking review and so on .click on to check </p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                   <div class="col-md-4 mt-1">
+                    <a href="https://github.com/mdasraf786/E-news_Java.git" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/A3.png" class="img-responsive rounded"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Enews</h5>
+                                    <p class="font-weight-normal">News Website(JAVA,HTML.CSS,BOOSTRAP AND PHP, MYSQL AS BACKEND) which is usually user/admin can upload news which happens nearby them user can comment like and others stuff and admin had full access.Click on to check on Github</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-4 mt-1">
+                    <a href="https://github.com/mdasraf786/ASSU.git" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/assu.png" class="img-responsive rounded"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>ASSU</h5>
+                                    <p class="font-weight-normal">Clothings Brand Ecom Website Currently Wroking Click on to check on Github</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                  <div class="col-md-4 mt-3">
+                    <a href="https://github.com/mdasraf786/HR-ANALYTICS-DASHBOARD.git" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/p2.png" class="img-responsive rounded"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>HR ANALYTICS DASHBOARD</h5>
+                                    <p class="font-weight-normal">This interactive dashboard for HR data analysis helps HR teams monitor workforce trends, evaluate employee performance, and make data-driven decisions.Click on to check on Github</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-4 mt-3">
+                    <a href="https://github.com/mdasraf786/Activity-Analyzer.git" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/activity.jpg" class="img-responsive rounded"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Activity Detection</h5>
+                                    <p class="font-weight-normal">System that detect activities ging on like reading,walking,running not finished yet.Click on to check on Github</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-4 mt-3">
+                    <a href="https://github.com/mdasraf786/Facemask-detection.git" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/facemask.jpg" class="img-responsive rounded"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>FaceMask Detection</h5>
+                                    <p class="font-weight-normal">System that detect if people are in mask or not usefull for hospital that compulsory check for mask beofre enetering surgeries and others stuff.Click on to check on Github</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+            </div><!-- end of row -->
+        </div><!-- end of container -->
+    </section> <!-- end of portfolio section -->
+
+    
+
+    <section class="section-sm bg-primary">
+        <!-- container -->
+        <div class="container text-center text-sm-left">
+            <!-- row -->
+            <div class="row align-items-center">
+                <div class="col-sm offset-md-1 mb-4 mb-md-0">
+                    <h6 class="title text-light">Want to work with me?</h6>
+                    <p class="m-0 text-light">Always feel Free to Contact & Hire me</p>
+                </div>
+                <div class="col-sm offset-sm-2 offset-md-3">
+<a href="https://wa.me/919876543210" target="_blank">
+  <button class="btn btn-lg my-font btn-light rounded">
+    <i class="fab fa-whatsapp"></i> +977 9817728125
+  </button>
+</a>                </div>
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </section> <!-- end of section -->
+
+    
+
+    
+
+    
+
+    <!-- footer -->
+    <div class="container">
+        <footer class="footer">
+            <p class="mb-0">Copyright
+                <script>document.write(new Date().getFullYear())</script> &copy; <a
+                    href="http://mdasrafali.com.np">MD ASRAF ALI(+9779817728125)</a> 
+            </p>
+         <div class="social-links text-right m-auto ml-sm-auto">
+    <a href="https://github.com/asraf789" target="_blank" class="link"><i class="ti-github"></i></a>
+    <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3B%2BrmPZZdVQ%2BitMCWxkoNxJg%3D%3D" target="_blank" class="link"><i class="ti-linkedin"></i></a>
+    <a href="mailto:asraflosted@gmail.com" class="link"><i class="ti-google"></i></a>
+        <a href="https://www.facebook.com/share/15AZoV9chZE/" target="_blank" class="link"><i class="ti-facebook"></i></a>
+
+    <a href="https://www.instagram.com/asraf_789" target="_blank" class="link"><i class="ti-instagram"></i></a>
+</div>
+
+
+
+        </footer>
+    </div> <!-- end of page footer -->
+
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Meyawo js -->
+    <script src="assets/js/meyawo.js"></script>
+   <script>
+function downloadFile(filePath) {
+    // Create an invisible link element
+    var link = document.createElement('a');
+    link.href = filePath;
+    link.download = filePath.split('/').pop(); // force download
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
+</script>
+
+</body>
+
+</html>
